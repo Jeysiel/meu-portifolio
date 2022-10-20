@@ -1,3 +1,47 @@
 .cabecalho{
     background-color: #13293D;
+    height: 150px;
+    display: flex;
+    align-items: center;
 }
+
+.img-logotipo{
+    width: 200px;
+}
+
+.cabecalho-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #E8F1F2;
+}
+
+.menu-item{
+    margin: 0 3em 0 3em;
+    font-size: 1.1em;
+    color: #E8F1F2;
+}
+
+.apresentacao{
+    background-color: #006495;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    color: #E8F1F2;
+
+}
+
+.foto-apresentacao{
+    width: 30%;
+}
+
+
