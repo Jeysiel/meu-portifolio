@@ -3,6 +3,7 @@
     height: 150px;
     display: flex;
     align-items: center;
+    padding: 0px 20px;
 }
 
 .img-logotipo{
@@ -37,11 +38,30 @@
     text-align: center;
     font-size: 2em;
     color: #E8F1F2;
+    padding: 0px 20px;
 
 }
 
 .foto-apresentacao{
     width: 30%;
+}
+
+.formacoes{
+    background-color: #247BA0;
+    padding: 0px 20px;
+    height: 300px;
+}
+
+.formacoes h2{
+    font-size: 3em;
+}
+
+.formacoes p{
+    margin-top: 20px;
+}
+
+.formacoes p::before{
+    content:"➔";
 }
 
 
