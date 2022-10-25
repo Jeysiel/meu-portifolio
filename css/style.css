@@ -64,4 +64,27 @@
     content:"➔";
 }
 
+.div-habilidades{
+    display: flex;
+    width: 40%;
+    height: 300px;
+    background-color: aqua;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.foto-habilidade{
+    width: 150px;
+    height: 130px;
+    margin: 5px auto;
+    background-color: #000000;
+}
+.foto-habilidade:hover{
+    zoom: 110%;
+}
+
+.fadeout{
+    opacity: 0;
+}
