@@ -64,6 +64,10 @@
     content:"➔";
 }
 
+.habilidade{
+    display: flex;
+}
+
 .div-habilidades{
     display: flex;
     width: 40%;
@@ -88,3 +92,23 @@
 .fadeout{
     opacity: 0;
 }
+
+/*.div-paragrafos{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+}*/
+.div-paragrafos{
+    background-color: #f01;
+    width: 60%;
+}
+
+.centraliza{
+    text-align: center;
+    padding: 50px 0;
+}
+
