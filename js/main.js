@@ -15,12 +15,10 @@ function ocultaParagrafo(){
     fotoHtml.addEventListener("mouseover", function(){
         console.log("funcionou html")
         html.classList.remove('fadeout');
-        html.classList.add('centraliza')
     })
     fotoCss.addEventListener("mouseover", function(){
         console.log("funcionou html")
         css.classList.remove('fadeout');
-        css.classList.add('centraliza');
     })
     fotoJs.addEventListener("mouseover", function(){
         console.log("funcionou html")
