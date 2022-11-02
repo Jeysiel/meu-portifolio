@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .cabecalho{
     background-color: #13293D;
     height: 150px;
@@ -7,7 +11,7 @@
 }
 
 .img-logotipo{
-    width: 200px;
+    width: 10em;
 }
 
 .cabecalho-nav{
@@ -32,7 +36,8 @@
 }
 
 .apresentacao{
-    background-color: #006495;
+    background: rgb(19,41,61);
+    background: linear-gradient(180deg, rgba(19,41,61,1) 0%, rgba(0,100,149,1) 54%, rgba(36,123,160,1) 100%);
     display: flex;
     align-items: center;
     text-align: center;
@@ -47,9 +52,17 @@
 }
 
 .formacoes{
-    background-color: #247BA0;
+    background: rgb(19,41,61);
+    background: linear-gradient(180deg, rgba(19,41,61,1) 7%, rgba(27,81,109,1) 25%, rgba(36,123,160,1) 47%, rgba(0,100,149,1) 70%);
     padding: 0px 20px;
     height: 300px;
+    color: #E8F1F2;
+}
+
+.formacoes h2{
+    color: #E8F1F2;
+    font-size: 2.5em;
+    padding: 20px 20px; 
 }
 
 .formacoes h2{
@@ -64,27 +77,46 @@
     content:"➔";
 }
 
-.habilidade{
+.habilidades{
+    background: rgb(0,100,149);
+    background: linear-gradient(90deg, rgba(0,100,149,1) 17%, rgba(19,41,61,1) 100%);
+    color: #E8F1F2;
+}
+
+.titulo-habilidades{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-habilidades p{
+    margin-left: 30em;
+}
+
+.habilidades h2{
+    color: #E8F1F2;
+    font-size: 2.5em;
+    padding: 20px 20px;
+}
+
+.div-habilidade{
     display: flex;
 }
 
-.div-habilidades{
+.img-habilidades{
     display: flex;
     width: 40%;
     height: 300px;
-    background-color: #006495;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px 20px 50px 20px;
 }
 
 .foto-habilidade{
     width: 150px;
     height: 130px;
     margin: 5px auto;
-    background-color: #000000;
 }
 .foto-habilidade:hover{
     zoom: 110%;
@@ -95,7 +127,7 @@
 }
 
 .div-paragrafos{
-    background-color: #006495;
+   /* background-color: #006495;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,15 +142,20 @@
     padding: 50px 0;
 }
 
+.contato{
+    background: rgb(0,100,149);
+    background: linear-gradient(90deg, rgba(0,100,149,1) 17%, rgba(36,123,160,1) 100%);
+}
+
 .div-contato{
-    background-color: #247BA0;
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;
+    padding-top: 20px;
+    height: 10em;
 }
 
 .contato h2{
-    background-color: #247BA0;
     color: #E8F1F2;
     font-size: 2.5em;
     padding: 20px 20px;
@@ -135,6 +172,11 @@
     width: 140px;
     height: 155px;
     box-shadow: 8px 8px 5px;
+}
+
+.fig-contatos:hover{
+    zoom: 105%;
+    opacity: 0.8;
 }
 
 .caption{
