@@ -1,0 +1,49 @@
+@media only screen and (max-width:600px) {
+    .img-logotipo{
+        width: 5em;
+        margin: 1.5rem;
+    }
+    .cabecalho-nav{
+        width: 100vh;
+    }
+    .menu-item{
+        margin: 0 0.5em 0 0.5em;
+        display: block;
+        font-size: 1.1em;
+        color: #E8F1F2;
+        height: 2rem;
+        width: 0px;
+        
+    }
+    .menu{
+        /*display: none;*/
+        position: absolute;
+        width: 100%;
+        top: 85px;
+        background-color: black;
+        display: none;
+        z-index: 1000;
+    }
+    #btn-mobile{
+        display: block;   
+    }
+    #nav.active .menu{
+        display: block;
+    }
+
+    .apresentacao{
+        width: 100vh;
+    }
+
+    .apresentacao h1{
+        display: none;
+    }
+
+    .formacoes{
+        width: 100vh;
+    }
+    
+    .habilidades{
+        width: 100vh;
+    }
+}

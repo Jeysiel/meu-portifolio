@@ -7,6 +7,7 @@
     <title>Jeysiel | Portifólio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
@@ -14,7 +15,8 @@
 <body>
     <header class="cabecalho" id="inicio">
         <img class="img-logotipo" src="img/logosvg.svg" alt="logotipo">
-        <nav class="cabecalho-nav">   
+        <nav class="cabecalho-nav" id="nav">   
+            <button id="btn-mobile"></button>
             <ul class="menu">
                 <li class="menu-item"><a href="#inicio">Início</a></li>
                 <li class="menu-item"><a href="#formacoes">Formações</a></li>
@@ -29,9 +31,9 @@
                 <h1 class="h1">Desenvolvedor Front-End</h1>
                 <p class="paragrafo-apresentaçao">Olá, como vai?
                     Meu nome é Jeysiel Silva, tenho 23 anos.
-                    Sou um desenvolvedor freelancer
-                     (ou tentando ser um, a gente nunca para de estudar), 
-                    com foco em desenvolvimento front-end.
+                    Esse é meu site pessoal, 
+                    sou um desenvolvedor front-end. Sou formado em Análise 
+                    e Desenvolvimento de Sistemas.
                 </p>
                     <img class="foto-apresentacao fadeout" src="img/foto.png" alt="Foto do autor">
             </section>
@@ -73,21 +75,24 @@
                 </div>
             </section>
             <section class="projetos" id="projetos">
-                <div class="projetos-divs">
-                    <figure>
-                        <img class="img-projetos" src="img/em breve.png" alt="">
-                    </figure>
-                </div> 
-                <div class="projetos-divs">
-                    <figure>
-                        <img class="img-projetos" src="img/em breve.png" alt="">
-                    </figure>
-                </div>  
-                <div class="projetos-divs">
-                    <figure>
-                        <img class="img-projetos" src="img/em breve.png" alt="">
-                    </figure>
-                </div>     
+                <h2>Projetos</h2>
+                <div class="divs-projetos">
+                    <div class="projetos-divs">
+                        <figure>
+                            <img class="img-projetos" src="img/em breve.png" alt="">
+                        </figure>
+                    </div> 
+                    <div class="projetos-divs">
+                        <figure>
+                            <img class="img-projetos" src="img/em breve.png" alt="">
+                        </figure>
+                    </div>  
+                    <div class="projetos-divs">
+                        <figure>
+                            <img class="img-projetos" src="img/em breve.png" alt="">
+                        </figure>
+                    </div>
+                 </div>  
             </section>
             <section class="contato" id="contatos">
                 <h2>Contato</h2>
@@ -122,5 +127,6 @@
         <script src="js/main.js"></script>
         <script src="js/escreve-texto.js"></script>
         <script src="js/scroll-suave.js"></script>
+        <script src="js/btnMobile.js"></script>
 </body>
 </html>
