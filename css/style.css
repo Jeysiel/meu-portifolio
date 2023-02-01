@@ -40,10 +40,6 @@ body{
 
 #btn-mobile{
     display: none;
-    margin: 2rem auto;
-    width: 5rem;
-    height: 5rem;
-    background-image: url('../img/icone.png');
 }
 
 .menu-item{

@@ -1,4 +1,8 @@
 @media only screen and (max-width:600px) {
+    .cabecalho{
+    
+    }
+    
     .img-logotipo{
         width: 5em;
         margin: 1.5rem;
@@ -21,29 +25,90 @@
         width: 100%;
         top: 85px;
         background-color: black;
-        display: none;
+        height: 0px;
+        display: block;
+        transition: .6s;
         z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
     }
     #btn-mobile{
-        display: block;   
+        display: flex; 
+        margin-top: 3rem; 
+        margin-left: 30rem;
+        padding: .5rem 1rem; 
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        color: #E8F1F2;
+    }
+    #hamburguer{
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #haburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
     }
     #nav.active .menu{
-        display: block;
+        visibility: visible;
+        height: calc(100vh - 690px);
     }
 
     .apresentacao{
         width: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .paragrafo-apresentaçao{
+        margin-top: 6rem;
+    }
+    .foto-apresentacao{
+        margin-top: 2rem;
     }
 
     .apresentacao h1{
-        display: none;
+        display: block;
+        top: 5.5em;
+        right: auto;
     }
 
     .formacoes{
         width: 100vh;
+        text-align: center;
     }
     
     .habilidades{
+        width: 100vh;
+        text-align: center;
+        display: flex;
+        
+    }
+
+    .titulo-habilidades p {
+        display: none;
+    }
+    .img-habilidades{
+        display: block;
+    }
+
+    .projetos{
+        width: 100vh;
+    }
+
+    .contato{
+        width: 100vh;
+    }
+
+    .rodape{
         width: 100vh;
     }
 }
